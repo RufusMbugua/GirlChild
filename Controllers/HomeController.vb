@@ -24,4 +24,16 @@
 
         Return View()
     End Function
+
+    Function Partners() As ActionResult
+        ViewData("Message") = "View List of partners."
+
+        Return View()
+    End Function
+
+    Function Resources() As ActionResult
+        ViewData("Message") = "List of Resources."
+
+        Return View()
+    End Function
 End Class

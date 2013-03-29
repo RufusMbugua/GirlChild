@@ -14,7 +14,7 @@
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
+                    <img src="~/Images/GirlChild.png"/>
                 </div>
                 <div class="float-right">
                     <section id="login">
@@ -23,8 +23,8 @@
                     <nav>
                         <ul id="menu">
                             <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                            <li>@Html.ActionLink("About", "About", "Home")</li>
-                            <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                            <li>@Html.ActionLink("Resources", "Resources", "Home")</li>
+                            <li>@Html.ActionLink("Partners", "Partners", "Home")</li>
                             <li>@Html.ActionLink("Report", "Report", "Home")</li>
                         </ul>
                     </nav>
@@ -40,7 +40,7 @@
         <footer>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
+                    <p>&copy; @DateTime.Now.Year - Patriots</p>
                 </div>
             </div>
         </footer>
